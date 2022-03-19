@@ -1,0 +1,43 @@
+{
+  "name": "count-compoent-plugin",
+  "version": "1.0.5",
+  "description": "统计项目中一个组件引用次数的 webpack 插件",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
+  "types": "esm/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "lint": "eslint --ext ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzf1997/count-compoent-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzf1997/count-compoent-plugin/issues"
+  },
+  "homepage": "https://github.com/wzf1997/count-compoent-plugin#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.11.0",
+    "eslint-config-th0r": "^2.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.2",
+    "webpack": "^5.28.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "to-excel": "^2.2.5"
+  },
+  "peerDependencies": {
+    "webpack": "^5.1.0"
+  }
+}

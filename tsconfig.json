@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "ESNext",
+    "lib": ["dom", "es6", "es2019", "esnext.asynciterable"],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "declaration": true, // 生成定义文件
+    "declarationMap": true, // 生成定义sourceMap
+    "removeComments": true,   // 移除注解
+    "noImplicitAny": true,   // 禁止使用any 
+    "strictNullChecks": true,   
+    "preserveConstEnums": false, // 枚举类型是否生成 映射代码
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,  // this 隐式具有 any 类型 
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true, 
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",  // 根路径 路径映射
+  },
+  "exclude": ["node_modules","dist","esm"],
+  "include": ["./src/**/*.ts"] // * 匹配0或者多个字符 （不包括目录分割符） **/递归匹配任意子目录
+}
